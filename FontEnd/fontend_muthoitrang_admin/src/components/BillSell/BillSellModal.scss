@@ -1,0 +1,15 @@
+.icon-container_delete,.icon-container_add {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    color: #888888; 
+    transition: color 0.3s; 
+}
+
+.icon-container_delete:hover {
+    color: #e62e2e; 
+}
+
+.icon-container_add:hover {
+    color: #5acf0b; 
+}

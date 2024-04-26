@@ -1,0 +1,17 @@
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\BussinessLayer.deps.json
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\BussinessLayer.dll
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\BussinessLayer.pdb
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\Model.dll
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\bin\Debug\net6.0\Model.pdb
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.AssemblyReference.cache
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfoInputs.cache
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.AssemblyInfo.cs
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.csproj.CopyComplete
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.dll
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\refint\BussinessLayer.dll
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\BussinessLayer.pdb
+C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\BussinessLayer\obj\Debug\net6.0\ref\BussinessLayer.dll

@@ -515,6 +515,100 @@ begin
 	TaiKhoans ct on hd.MaTaiKhoan = ct.MaTaiKhoan
 end
 
+-------------------------------------------------------------------------------------------------------------------------------------
+CREATE proc [dbo].[sp_sanpham_search](@page_index  INT, 
+                                       @page_size   INT,
+									   @TenSanPham nvarchar(150),
+									   @TenDanhMuc nvarchar(50),
+									   @GiaMin DECIMAL(18, 0),
+									   @GiaMax DECIMAL(18, 0),
+									   @XuatXu nvarchar(50))
+AS
+    BEGIN
+        DECLARE @RecordCount BIGINT;
+        IF(@page_size <> 0)
+            BEGIN
+                SET NOCOUNT ON;
+                        SELECT(ROW_NUMBER() OVER(
+                              ORDER BY s.MaSanPham DESC)) AS RowNumber, 
+                              s.MaSanPham,
+							  dm.MaDanhMuc,
+							  dm.TenDanhMuc,
+							  s.TenSanPham,
+							  s.AnhDaiDien,
+							  s.Gia,
+							  s.GiaGiam,
+							  s.SoLuong,
+							  s.MauSac,
+							  s.TrangThai,
+							  s.LuotXem,
+							  s.LuotBan,
+							  s.DanhGia,
+							  s.XuatXu,
+							  s.MoTa,
+							  s.ChiTiet
+                        INTO #Temp1
+                        FROM ThongTinMu AS s
+						inner join DanhMucs dm on dm.MaDanhMuc = s.MaDanhMuc
+
+					    WHERE (@TenSanPham = '' or s.TenSanPham like '%'+@TenSanPham +'%')
+							and (@TenDanhMuc = '' or dm.TenDanhMuc like '%'+@TenDanhMuc +'%')
+							and (@GiaMin = 0 OR s.Gia >= @GiaMin)
+							 and (@GiaMax = 0 OR s.Gia <= @GiaMax)
+							and (@XuatXu = '' or s.XuatXu like '%'+@XuatXu +'%')
+						
+                        SELECT @RecordCount = COUNT(*)
+                        FROM #Temp1;
+                        SELECT *, 
+                               @RecordCount AS RecordCount
+                        FROM #Temp1
+                        WHERE ROWNUMBER BETWEEN(@page_index - 1) * @page_size + 1 AND(((@page_index - 1) * @page_size + 1) + @page_size) - 1
+                              OR @page_index = -1;
+                        DROP TABLE #Temp1; 
+            END;
+            ELSE
+            BEGIN
+                SET NOCOUNT ON;
+                        SELECT(ROW_NUMBER() OVER(
+                              ORDER BY s.MaSanPham DESC)) AS RowNumber, 
+                              s.MaSanPham,
+							  dm.MaDanhMuc,
+							  dm.TenDanhMuc,
+							  s.TenSanPham,
+							  s.AnhDaiDien,
+							  s.Gia,
+							  s.GiaGiam,
+							  s.SoLuong,
+							  s.MauSac,
+							  s.TrangThai,
+							  s.LuotXem,
+							  s.LuotBan,
+							  s.DanhGia,
+							  s.XuatXu,
+							  s.MoTa,
+							  s.ChiTiet
+                        INTO #Temp2
+                        FROM ThongTinMu AS s
+						inner join DanhMucs dm on dm.MaDanhMuc = s.MaDanhMuc
+
+					    WHERE (@TenSanPham = '' or s.TenSanPham like '%'+@TenSanPham +'%')
+							and (@TenDanhMuc = '' or dm.TenDanhMuc like '%'+@TenDanhMuc +'%')
+							and (@GiaMin = 0 OR s.Gia >= @GiaMin)
+							 and (@GiaMax = 0 OR s.Gia <= @GiaMax)
+							and (@XuatXu = '' or s.XuatXu like '%'+@XuatXu +'%')
+							and (@XuatXu = '' or s.XuatXu like '%'+@XuatXu +'%')
+
+                        SELECT @RecordCount = COUNT(*)
+                        FROM #Temp2;
+                        SELECT *, 
+                               @RecordCount AS RecordCount
+                        FROM #Temp2
+                        DROP TABLE #Temp2; 
+        END;
+    END;
+GO
+
+
 -------------------------------------------------------------------------------------------------------------------------------
 create proc sp_getbyidchitiethoadon(@MaHoaDon int)
 as

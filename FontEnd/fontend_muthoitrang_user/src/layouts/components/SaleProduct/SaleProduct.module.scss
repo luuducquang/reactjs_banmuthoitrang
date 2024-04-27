@@ -1,0 +1,250 @@
+.type{
+    /* border-bottom: solid 5px #326e51; */
+    background: linear-gradient(90deg,#444948 0%,#253230 100%) 0% 0% no-repeat;
+    padding: 10px;
+    color: #fff;
+}
+
+.type a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.type i{
+    color: #fff;
+    font-size: 10px;
+    padding: 0 10px;
+}
+
+.take-care,.cleanser
+,.favourite,.sale{
+    display: flow-root;
+}
+.favourite,.take-care,.cleanser{
+    margin: 0;
+}
+
+.more{
+    float: right;
+    margin-right: 2%;
+    margin-top: 13px;
+}
+
+.more a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.more a:hover{
+    color: #999999;
+}   
+
+.home-product-item{
+    width: 19.4%;
+    box-sizing: border-box;
+    border: solid 1px #DDDDDD;
+    margin: 1% .3%;
+    float: left;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px; */
+}
+
+.home-product-item:hover{
+    border: solid 1px #333;
+}
+
+.home-product-item a{
+    text-decoration: none;
+    position: relative;
+}
+
+.home-product-item_img:hover{
+    transform: scale(1.1);
+}
+
+.home-product-item_img{
+    transition: 0.2s ease-in-out;
+}
+
+.home-product-item_img img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-sale{
+    position: absolute;
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 5px;
+    top: 10px;
+    
+}
+
+.sale-up{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #e8c021;
+    padding: 5px;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 11px;
+}
+
+.sale-up::after{
+    content: "";
+    position: absolute;
+    border-width: 0 17.43px 6px;
+    right: 0;
+    bottom: -5.43px;
+    border-style: solid;
+    border-color: transparent #e8c021 transparent #e8c021;
+}
+
+.home-product-item_name{
+    margin: 10px 10px;
+    line-height: 1.5rem;
+    height: 3rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: black;
+    transition: all .2s ease;
+}
+
+.home-product-item_name:hover{
+    color: #333;
+}
+
+.home-icon-recommend{
+    margin: 4px 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.mtop3{
+    margin-bottom: -2px;
+}
+
+.m03{
+    margin: 0 3px;
+}
+
+.home-icon-recommend i,.icon-recommend i {
+    font-size: 13px;
+}
+
+.decrip-item{
+    margin: 0px 10px 5px 10px;
+    line-height: 1.5rem;
+    height: 3rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 15px;
+    color: #555555;
+}   
+
+.decrip-item:hover{
+    color: #222222
+}
+
+.ti-shopping-cart-full{
+    margin: 0 5%;
+}
+
+.ti-shopping-cart-full:hover{
+    cursor: pointer;
+}
+
+.shopping a {
+    text-decoration: none;
+}
+
+.home-product-item_price_old{
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: var(--color-price);
+    margin-left: 5px;
+    
+}
+
+.home-product-item_price{
+    text-align: left;
+    margin-left: 10px;
+    color: var(--color-price);
+}
+
+.star-gold{
+    color: #ff9c19;
+    margin: 0 3px;
+    transform: translateY(-1px);
+}
+
+.amount-product{
+    margin: 0 3px;
+}
+
+
+.fa-star{
+    font-size: 10px;
+    transform: translateY(-15%);
+}
+
+/* .fa-solid{
+    font-size: 10px;
+    transform: translateY(-15%);
+} */
+
+.fa-cart-plus{
+    cursor: pointer;
+}
+
+.free-ship{
+    color: #00bfa5;
+    margin-left: 1%;
+}
+
+.fa-truck-fast{
+    font-size: 10px;
+    transform: translateY(-15%);
+}
+
+.view{
+    font-size: 15px;
+    color: #999999;
+    float: left;
+    padding: 6px 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.mr3{
+    margin-right: 4px;
+    color: #222222;
+    font-style: 16px;
+}
+
+.country{
+    font-size: 15px;
+    color: #999999;
+    float: right;
+    padding: 6px;
+    margin-right: 5px;
+}
+
+.home-prouct-item-star-rating{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 4%;
+    font-size: 2px;
+}

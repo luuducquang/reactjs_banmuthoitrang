@@ -1,0 +1,105 @@
+.ratingUser{
+    background-color: #f7f7f7;
+    border-radius: 6px;
+    padding: 15px 10px;
+}
+
+.ratingUser p{
+    margin: 10px 0;
+}
+
+.ratingUser .stars{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i,.stars2 i {
+    color: #ddd;
+    font-size: 30px;
+    cursor: pointer;
+    transition: color .3s;
+    margin-top: 5px;
+}
+
+.stars .activeStar,.stars2 .activeStar{
+    color: #ff9c1a;
+}
+
+.stars2{
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.stars-rate i{
+    font-size: 12px;
+}
+
+.rate{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 3px;
+}
+
+.stars-rate .activeStar{
+    color: #ff9c1a;
+}
+
+.ratingheder{
+    margin: 10px 0;
+}
+
+textarea
+{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  border-radius: 6px;
+  padding:3px;
+}
+
+.sendRating{
+    display: flex;
+    justify-content: center;
+}
+
+.sendRating button{
+    border: none;
+    padding: 8px 15px;
+    background-color: #326e52;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.sendRating button:hover{
+    background-color: #ddd;
+    color: #326e52;
+}
+
+.btnNextRate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btnNextRate>span{
+    margin: 0;
+}
+
+.btnNextRate .prevRate,.btnNextRate .nextRate{
+    background-color: #999999;
+    padding: 4px 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    border: none;
+}
+
+.opacityBtnRate{
+    opacity: .5;
+}

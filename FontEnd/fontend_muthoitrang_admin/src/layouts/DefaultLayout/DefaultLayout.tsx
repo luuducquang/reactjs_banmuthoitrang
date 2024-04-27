@@ -22,7 +22,7 @@ const DefaultLayout: React.FC = ({ children }: any) => {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
 
-    const [dataUser, setDataUser] = useState<User>();
+    const [dataUser, setDataUser] = useState<User | null>();
     const handlerLogout = () => {
         async function logout() {
             localStorage.setItem("user", JSON.stringify(null));

@@ -1,0 +1,376 @@
+#header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+    background-color: white;
+    background-color: #333;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+.banner{
+    width: 15%;
+    box-sizing: border-box; 
+}
+
+.banner img{
+    height: 80px;
+    filter: invert(83%);
+}
+
+.wrap{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    
+}
+  
+.searchTerm {
+    width: 165%;
+    border: 3px solid #ffffff;
+    border-right: none;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+  
+.searchTerm:focus{
+    color: #333;
+}
+
+.searchTerm::placeholder{
+    color: #333;
+}
+  
+.searchButton {
+  width: 100px;
+  border: 1px solid #ffffff;
+  background: #333;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  
+}
+
+.suggest{
+    position: absolute;
+    float: left;
+    bottom: 3px;
+}
+
+.suggest a{
+    text-decoration: none;
+    padding-left: 13px;
+    color: hsla(0,0%,100%,.9);
+    font-size: 13px;
+}
+
+.wrap{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.home-search{
+    position: absolute;
+    top: 65px;
+    width: 45%;
+    display: none;
+    z-index: 1000;
+}
+
+.content-search{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    background-color: #fff;
+    max-height: 400px;
+    overflow-y: scroll;
+    min-height: 85px;
+}
+
+.content-search::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+    border-radius: 0 15px 15px 0;
+} 
+
+.content-search::-webkit-scrollbar-thumb {
+    background-color: #4444;
+    border-radius: 5px;
+}
+
+.content-search a{
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+.products-search{
+    cursor: pointer;
+    padding: 10px;
+    padding-bottom: 2%;
+    height: 70px;
+    border-bottom: solid 1px #e1e1e1;
+
+}
+
+.name-search{
+    line-height: 1.3rem;
+    height: 1.3rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.products-search:hover{
+    background-color: #8888;
+    border-radius: 5px;
+}
+
+.products-search img{
+    width: 50px;
+    object-fit: cover;
+    float: left;
+}
+
+.products-search .info {
+    padding: 2px;
+    margin-left: 80px;
+}
+
+.price-search {
+    color: #ff6600;
+}
+
+.suggest{
+    position: absolute;
+    float: left;
+    bottom: 3px;
+}
+
+.suggest a{
+    text-decoration: none;
+    padding-left: 13px;
+    color: hsla(0,0%,100%,.9);
+    font-size: 13px;
+}
+
+.home-search{
+    position: absolute;
+    top: 65px;
+    width: 45%;
+    display: none;
+    z-index: 1000;
+}
+
+
+.content-search{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    background-color: #fff;
+    max-height: 400px;
+    overflow-y: scroll;
+    min-height: 85px;
+}
+
+.content-search::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+    border-radius: 0 15px 15px 0;
+} 
+
+.content-search::-webkit-scrollbar-thumb {
+    background-color: #4444;
+    border-radius: 5px;
+}
+
+.content-search a{
+    list-style: none;
+    text-decoration: none;
+    color: #222222;
+}
+
+.shopping{
+    width: 10% ;
+    text-align: -webkit-center;
+    transition: all .5s ease;
+}
+
+
+.shopping a {
+    font-size: 28px;
+    margin-top: 27px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-cart-shopping{
+    color: #ffffff;
+}
+
+
+.User{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.User>ul li{
+    list-style: none;
+}
+
+.User>ul a{
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 8px 15px;
+    transition: all .5s;
+}
+
+.User>ul a:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #00483d;
+}
+
+
+.Login, .Registry {
+    margin: 0 5%;
+}
+
+.cartItem{
+    position: relative;
+    width: 28px;
+}
+
+.value-cart{
+    color: #333;
+    position: absolute;
+    text-align: center;
+    background: #ffffff;
+    top: 0;
+    padding: 0 0.3125rem;
+    border-radius: 2.75rem;
+    height: 1.8rem;
+    font-family: none;
+    font-size: 15px;
+    transform: translate(81%, -42%);
+
+}
+
+.imgUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgUser img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.OptionUser{
+    position: absolute;
+    background-color: #8888;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    right: 3%;
+    top: 85px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    display: block;
+}
+
+.OptionUser li{
+    list-style: none;
+}
+
+.OptionUser li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    display: block;
+}
+
+.OptionUser li a:hover{
+    color: #8888;
+    background-color: #fff;
+    transition: .3s linear;
+    border-radius: 5px;
+}
+
+.helloUser{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.custom-search .ant-btn-primary {
+    background-color: #8888;
+    border-color: #8888;
+    border: 1px solid #fff;
+  }
+  
+  .custom-search .ant-btn-primary:hover {
+    background-color: #333 !important;
+    border-color: #333;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  
+  .custom-search .ant-btn-primary:focus {
+    background-color: #333 ;
+    border-color: #333 ;
+  }
+
+  .custom-search .ant-input{
+    border: solid 1px #fff !important;
+    height: 38px ;
+  }
+  
+  .custom-search .ant-input::placeholder {
+    color: #8888 !important; 
+  }
+  .custom-search .ant-btn{
+    border: solid 1px #fff !important;
+    height: 38px ;
+    font-size: 20px;
+  }

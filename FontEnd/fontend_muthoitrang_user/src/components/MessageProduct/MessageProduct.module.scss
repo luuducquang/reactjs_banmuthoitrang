@@ -1,0 +1,49 @@
+.last{
+    position: fixed;
+    top: 45%;
+    left: 40%;
+    width:300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    z-index: 999;
+    animation: show linear .3s, hide linear 1s 1.5s forwards;
+}
+
+
+@keyframes show{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes hide{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+.fa-circle-check{
+    font-size: 40px;
+    color: #66CC66;
+}
+
+.product-last-icon{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-last-name{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    cursor: default;
+}

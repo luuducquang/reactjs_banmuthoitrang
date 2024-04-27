@@ -1,0 +1,172 @@
+#content{
+    margin-top: 95px;
+}
+
+.order-cart-shop table thead tr td{
+    height: 35px;   
+    color: #888888;
+}
+
+.order-cart-shop table thead tr td:nth-last-child(1){
+    width: 10%;
+    text-align: center;
+}
+
+.order-cart-shop table thead tr td:nth-last-child(2){
+    width: 15%;
+    text-align: center;
+}
+
+.order-cart-shop table thead tr td:nth-last-child(3){
+    width: 15%;
+    text-align: center;
+}
+
+.order-cart-shop table thead tr td:nth-last-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.order-cart-shop table thead tr td:first-child{
+    text-align: center;
+    width: 50%;
+    padding-left: 10px;
+}
+
+
+.order-cart-shop table tbody tr td{
+    text-align: center;
+    border-top: 1px solid #E1E1E1;
+}
+
+.order-cart-shop table{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.address-delivery table input[type=text]{
+    height: 30px;
+    width: 90%;
+    padding: 5px;
+    outline: none;  
+}
+
+.address-delivery table tr td .input-address{
+    width: 95.7%;
+}
+
+.address-delivery table tr td .input-commune{
+    width: 95.7%;
+}
+
+.address-delivery table tr td span{
+    color: black;
+    /* margin-left: 30px; */
+    /* font-size: 13px; */
+}
+
+.address-delivery table tr td i {
+    color: black;
+}
+
+.address-delivery table tr td sup {
+    color: red;
+}
+
+.payment-method{
+    margin-left: 20px;
+}
+
+.payment{
+    text-align: right;
+}
+
+.payment div{
+    background-color: #009981      ;
+    padding: 3px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;   
+    float: left;
+}
+
+.address-delivery table {
+    line-height: 2;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.address-delivery{
+    clear: both;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.address-delivery h2{
+    padding: 10px;
+}
+
+.order-cart-shop-content{
+    width: 74%;
+    float: left;
+    margin: 20px 0 20px 0;
+}
+
+.total-order{
+    float: right;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 20px 0 20px 0;
+    border-radius: 8px;
+}
+
+.total-order table tr td:last-child{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    line-height: 1.6;
+    margin-left: 10px;
+    color: #888888;
+}
+
+.total-order table tr td{
+    color: #888888;
+}
+
+.total_order span,.total_order sup{
+    color: #ee4d2d;
+}
+
+.total-order table tr th {
+    text-align: left;
+}
+
+.fa-backward{
+    padding: 0 10px 0 0;
+}
+
+.back div{
+    background-color: #009981;
+    padding: 3px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 190px;
+    text-align: center;
+    margin-left: 44px;
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.nameItem{
+    -webkit-line-clamp:1;
+    width: 300px;
+}

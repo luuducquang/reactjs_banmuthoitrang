@@ -1,0 +1,43 @@
+.content{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.take-care,.cleanser
+,.favourite{
+    display: flow-root;
+}
+
+.favourite,.take-care,.cleanser{
+    margin: 0;
+}
+
+.type{
+    /* border-bottom: solid 5px #326e51; */
+    background: linear-gradient(90deg,#444948 0%,#253230 100%) 0% 0% no-repeat;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-item{
+    margin: 0 5px;
+}
+
+
+.type_Sale{
+    margin-top: -2.5%;
+}
+
+.type a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.type i{
+    color: #fff;
+    font-size: 10px;
+    padding: 0 10px;
+}

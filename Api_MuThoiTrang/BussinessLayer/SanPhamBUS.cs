@@ -41,5 +41,9 @@ namespace BussinessLayer
         {
             return _res.Delete(MaSanPham);
         }
+        public List<SanPhamModel> Search(int pageIndex, int pageSize, out long total, string TenSanPham, string TenDanhMuc,  Decimal GiaMin, Decimal GiaMax, string XuatXu)
+        {
+            return _res.Search(pageIndex, pageSize, out total, TenSanPham, TenDanhMuc, GiaMin, GiaMax, XuatXu);
+        }
     }
 }

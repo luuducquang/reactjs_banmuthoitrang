@@ -1,0 +1,136 @@
+#content{
+    margin-top: 95px;
+}
+
+.cart-shop table thead tr td:nth-last-child(1){
+    width: 10%;
+    text-align: center;
+}
+
+.cart-shop table thead tr td:nth-last-child(2){
+    width: 15%;
+    text-align: center;
+}
+
+.cart-shop table thead tr td:nth-last-child(3){
+    width: 10%;
+    text-align: center;
+}
+
+.cart-shop table thead tr td:nth-last-child(4){
+    width: 10%;
+    text-align: center;
+}
+
+.cart-shop table thead tr td:nth-last-child(5){
+    width: 10%;
+    text-align: center;
+}
+
+.cart-shop table thead tr td:nth-last-child(6){
+    text-align: center;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.cart-shop table thead tr td:first-child{
+    width: 5%;
+}
+
+.cart-shop table thead tr td{
+    font-size: 16px;
+    line-height: 2;
+    color: #888888;
+    border-bottom: solid 1px #E1E1E1;
+}
+
+.cart-shop table tbody tr td{
+    text-align: center;
+    border-bottom: solid 1px #E1E1E1;
+}
+
+.cart-shop table tbody tr{
+    /* border: solid 2px black; */
+}
+
+.item-checkbox{
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.cart-shop table{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 5px 10px 10px 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.pay{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.pay .price-total-cart{
+    padding: 10px;
+}
+.pay a{
+    text-decoration: none;
+    background-color: #009981;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.pay a:hover{
+    opacity: 0.8;
+}
+
+.suggest-shop h2{
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #009981;
+}
+
+.suggest-shop{
+    margin: 100px 0;
+    display: flow-root;
+}
+
+.cart-product-recommend {
+    width: 19%;
+    margin: .5%;
+    float: left;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+
+
+.cart-product-recommend a{
+    text-decoration: none;
+}
+
+.product-recommend-img {
+    overflow: hidden;
+}
+
+.product-recommend-img img {
+    transition: .2s ease-in-out;
+}
+
+.product-recommend-img img:hover{
+    transform: scale(1.1);
+}
+

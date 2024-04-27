@@ -1,0 +1,18 @@
+.nameItem{
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+    -webkit-line-clamp: 2;
+    line-height: 1.7rem;
+    text-align: left;
+    width: 400px;
+}
+
+.nameItem{
+    color: #333;
+}
+
+.nameItem:hover{
+    color: #18a38d;
+}

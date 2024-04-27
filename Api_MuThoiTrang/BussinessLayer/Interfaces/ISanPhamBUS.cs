@@ -14,6 +14,7 @@ namespace BussinessLayer.Interfaces
         public bool Create(SanPhamModel model);
         public bool Update(SanPhamModel model);
         public bool Delete(int MaSanPham);
+        public List<SanPhamModel> Search(int pageIndex, int pageSize, out long total, string TenSanPham, string TenDanhMuc, Decimal GiaMin, Decimal GiaMax, string XuatXu);
 
     }
 }

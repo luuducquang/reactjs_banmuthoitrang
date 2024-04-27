@@ -1,0 +1,131 @@
+.menu{
+    background-color: #ffffff;
+    position: absolute;
+    top: 85px  ;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* box-shadow: 0px 0px 5px 2px #ddd; */
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 996;
+    animation: unhide .2s linear;
+}
+
+@keyframes unhide{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes upslide{
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+/* 
+#content h2{
+    background-color: #326e51;
+    padding: 8px;
+    color: #ffffff;
+} */
+
+
+.menu-list{
+    list-style: none;
+    line-height: 40px;
+}
+
+.menu-left{
+    background-color: #ffffff;
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    top: 85px; 
+    /* animation: upslide .3s linear; */
+}
+
+.close-menu{
+    left: 200px;
+    height: 56px;
+    padding: 3px 10px;
+    position: absolute;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 40px;
+    background: #000;
+}
+
+.close-menu:hover{
+    background-color: red;
+}
+
+
+.menu-list>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 0 24px 0px 24px;
+    color: #856b4f;
+    height: 50px;
+    line-height: 50px;
+    transition: all .1s ease;
+
+    
+}
+
+.menu-list>li>a:hover{
+    background-color: #333;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 0 0 3px 3px ;
+}
+
+.menu-nav>li>a{
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    color: #856b4f;
+    border-bottom: solid 1px #ddd;
+    
+    transition: all .1s linear;
+
+}
+.menu-nav>li{
+    list-style: none;
+    margin: 0px 0;
+}
+
+.menu-nav>li>a:hover{  
+    background-color: #333;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+.menu-list .menu-nav{
+    position: absolute;
+    list-style: none;
+    display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    line-height: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-list>li:hover .menu-nav{
+    display: block;
+    z-index: 1;
+    margin-left: 200px;
+    width: 200px;
+    margin-top: -40px;
+}

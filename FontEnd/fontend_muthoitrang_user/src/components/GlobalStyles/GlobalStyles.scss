@@ -1,0 +1,66 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --text-color: #161823;
+    --font-color:#6d4137;
+    --color-price:#ff7d2d;
+    --color-bgc:#f2f1f6;
+
+    //Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1150px;
+    --default-layout-horizontal-spacer: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    // line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    overflow-y: overlay;
+    background-color: var(--color-bgc);
+}
+
+//Scroll bar css
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, .06);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}

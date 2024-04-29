@@ -24,7 +24,7 @@ namespace DataAccessLayer
             string msgError = "";
             try
             {
-                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_getbyidchitiettaikhoan",
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_getbyidchitiettaikhoancustomer",
                      "@MaTaiKhoan", id);
                 if (!string.IsNullOrEmpty(msgError))
                     throw new Exception(msgError);

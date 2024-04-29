@@ -11,6 +11,7 @@ namespace DataAccessLayer.Interfaces
     {
         List<HoaDonModelTWO> GetAllHoaDon();
         List<ChiTietHoaDonModelTWO> Getbyids(int MaHoaDon);
+        List<HoaDonModel> Getbytaikhoan(int MaTaiKhoan);
         bool Create(HoaDonModel model);
         bool Update(HoaDonModel model);
         bool Delete(int MaHoaDon);

@@ -3,14 +3,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkcyan;
+    background-color: #333;
 }
 
 .form-login{
     max-width: 500px;
     flex-grow: 1;
     border-radius: 50px;
-    background-color:#18a38d;
+    background-color:#bcbcbc;
     padding: 30px 30px 30px 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-heading{
+    margin-bottom: 15px;
 }

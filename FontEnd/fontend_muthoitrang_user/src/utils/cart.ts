@@ -14,76 +14,11 @@ interface Product {
     state:boolean;
 }
 
-export function handlerCheckedCart(dataCart: any, dataBuy: any, callback: (totalPrice: number) => void) {
-    const listCheckBox = document.querySelectorAll(".item-checkbox");
-
-    listCheckBox.forEach((checkbox) => {
-        checkbox.addEventListener("click", (event) => {
-            const dataValue = checkbox.getAttribute("datatype");
-
-            const item = dataCart.find(
-                (x: Product) => x.id === Number(dataValue)
-            );
-            if (item) {
-                const search = dataBuy.find(
-                    (x: Product) => x.id === item.id
-                );
-
-                if (
-                    event.target instanceof HTMLInputElement &&
-                    event.target.checked
-                ) {
-                    if (!search) {
-                        dataBuy.push({
-                            id: item.id,
-                            img: item.img,
-                            name: item.name,
-                            priceOld: item.priceOld,
-                            price: item.price,
-                            color : item.color,
-                            amount: item.amount,
-                            countryItem: item.countryItem,
-                        });
-                    }
-                    dataCart.forEach((value: any) => {
-                        if (value.id === item.id) {
-                            value.state = true;
-                        }
-                    });
-                } else {
-                    const index = dataBuy.findIndex((item: any) => item && item.id === Number(dataValue));
-                    if (index !== -1) {
-                        dataBuy.splice(index, 1);
-                        dataCart.forEach((value: any) => {
-                            if (value.id === Number(dataValue)) {
-                                value.state = false;
-                            }
-                        });
-                    }
-                }
-
-                localStorage.setItem(
-                    "productList",
-                    JSON.stringify(dataCart)
-                );
-                localStorage.setItem(
-                    "listProductBuy",
-                    JSON.stringify(dataBuy)
-                );
-
-                const totalPrice:any = HandlerTotalCart(dataCart);
-                callback(totalPrice);
-            }
-        });
-    });
-}
-
 export function HandlerTotalCart(listProduct:any){
     if (listProduct && listProduct.length > 0) {
         var sum = 0;
-        var listItemTrue = listProduct.filter((x: Product) => x.state === true);
         
-        listItemTrue.forEach((value: any) => {
+        listProduct.forEach((value: any) => {
             var pri = value.price;
             var amo = value.amount;
             let total = pri * amo;

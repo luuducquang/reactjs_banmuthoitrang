@@ -11,6 +11,7 @@ namespace BussinessLayer.Interfaces
     {
         List<HoaDonModelTWO> GetAllHoaDon();
         List<ChiTietHoaDonModelTWO> Getbyids(int MaHoaDon);
+        List<HoaDonModel> Getbytaikhoan(int MaTaiKhoan);
         public bool Create(HoaDonModel model);
         public bool Update(HoaDonModel model);
         bool Delete(int MaHoaDon);

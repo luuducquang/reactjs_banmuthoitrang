@@ -9,10 +9,8 @@
     width: 400px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #18a38d;
-    border-radius: 30px;
+    background-color: #cacaca;
 }
 
 .login-form-title {
@@ -28,7 +26,8 @@
 
 .login-form-button {
     width: 100%;
-    background-color: #20b2aa;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 
@@ -37,6 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkcyan;
+    background-color: rgb(41, 41, 41);
     position: relative; 
 }

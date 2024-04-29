@@ -22,6 +22,7 @@ namespace Model
     {
         public int MaChitietTaiKhoan { get; set; }
         public int MaTaiKhoan { get; set; }
+        public int? MatKhau { get; set; }
         public int MaLoaitaikhoan { get; set; }
         public string TenLoai { get; set; }
         public string HoTen { get; set; }

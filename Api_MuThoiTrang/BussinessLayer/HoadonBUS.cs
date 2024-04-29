@@ -28,6 +28,11 @@ namespace BussinessLayer
         {
             return _res.Getbyids(id);
         }
+
+        public List<HoaDonModel> Getbytaikhoan(int id)
+        {
+            return _res.Getbytaikhoan(id);
+        }
         public bool Create(HoaDonModel model)
         {
             return _res.Create(model);

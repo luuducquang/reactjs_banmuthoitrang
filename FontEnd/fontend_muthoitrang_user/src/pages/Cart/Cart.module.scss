@@ -89,7 +89,6 @@
 }
 
 .pay{
-    display: flex;
     justify-content: end;
     padding: 10px;
     position: sticky;
@@ -105,7 +104,7 @@
 }
 .pay a{
     text-decoration: none;
-    background-color: #009981;
+    background-color: #333;
     padding: 5px 10px;
     text-transform: uppercase;
     color: #fff;
@@ -113,6 +112,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    height: 40px;
 }
 
 .pay a:hover{

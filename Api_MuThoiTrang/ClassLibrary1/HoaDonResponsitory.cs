@@ -51,6 +51,23 @@ namespace DataAccessLayer
             }
         }
 
+        public List<HoaDonModel> Getbytaikhoan(int id)
+        {
+            string msgError = "";
+            try
+            {
+                var dt = _dbHelper.ExecuteSProcedureReturnDataTable(out msgError, "sp_getbytaikhoanchitiethoadon",
+                     "@MaTaiKhoan", id);
+                if (!string.IsNullOrEmpty(msgError))
+                    throw new Exception(msgError);
+                return dt.ConvertTo<HoaDonModel>().ToList();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public bool Create(HoaDonModel model)
         {
             string msgError = "";

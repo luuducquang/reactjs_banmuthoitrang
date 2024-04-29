@@ -627,6 +627,17 @@ begin
 	where h.MaHoaDon = @MaHoaDon
 end
 
+------------------------------------------------------------------------------------------------------------------------
+CREATE proc [dbo].[sp_getbytaikhoanchitiethoadon](@MaTaiKhoan int)
+as
+begin
+	select h.*
+    FROM HoaDons AS h
+					
+	where h.MaTaiKhoan = @MaTaiKhoan
+	order by h.MaHoaDon DESC
+end
+
 -------------------------------------------------------------------------------------------------------------------------------
 create proc sp_get_all_hoadon
 as

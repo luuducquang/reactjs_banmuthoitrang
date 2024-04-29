@@ -81,7 +81,7 @@ function Login() {
                 onFinish={onFinish}
                 className={cx("login-form")}
             >
-                <h2 className={cx("login-form-title")}>Login Skin Care</h2>
+                <h2 className={cx("login-form-title")}>Login</h2>
                 <Form.Item
                     name="username"
                     rules={[

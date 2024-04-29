@@ -1,1 +1,1 @@
-export {default} from './Registry'
+export { default } from "./Registry";

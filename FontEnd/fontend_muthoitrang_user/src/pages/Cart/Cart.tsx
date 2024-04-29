@@ -63,7 +63,7 @@ function Cart() {
                                 className={cx("goOrder")}
                                 style={{ cursor: "pointer" }}
                             >
-                                Tiến hành đặt hàng
+                                Mua Hàng
                             </Link>
                         )}
                     </div>

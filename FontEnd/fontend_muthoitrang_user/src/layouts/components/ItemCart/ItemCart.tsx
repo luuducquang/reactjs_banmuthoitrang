@@ -7,7 +7,6 @@ import styles from "./ItemCart.module.scss";
 import { Link } from "react-router-dom";
 import {
     HandlerTotalCart,
-    handlerCheckedCart,
     handlerInputCart,
     handlerMinusCart,
     handlerPlusCart,
@@ -68,11 +67,6 @@ function ItemCart() {
         setCartValue(listProduct);
     }
 
-    const handlerChecked = () => {
-        handlerCheckedCart(dataCart, dataBuy, (totalPrice) => {
-            setTotalPriceCart(totalPrice);
-        });
-    };
 
     useEffect(() => {
         function loadDataCart() {
@@ -85,8 +79,9 @@ function ItemCart() {
                 ? JSON.parse(productBuyString)
                 : [];
             setDataCart(listProduct);
+            HandlerTotalCart(listProduct);
             setDataBuy(listProductBuy);
-            let price:any =  HandlerTotalCart(listProduct);
+            let price: any = HandlerTotalCart(listProduct);
             setTotalPriceCart(price);
         }
         loadDataCart();
@@ -97,7 +92,6 @@ function ItemCart() {
                 <table>
                     <thead>
                         <tr>
-                            <td>Chọn</td>
                             <td>Sản Phẩm</td>
                             <td>Xuất Xứ</td>
                             <td>Màu Sắc</td>
@@ -109,15 +103,6 @@ function ItemCart() {
                     <tbody>
                         {dataCart.map((value: any, index: any) => (
                             <tr key={index} className={`item${index}`}>
-                                <td>
-                                    <input
-                                        type="checkbox"
-                                        defaultChecked={value.state}
-                                        className="item-checkbox"
-                                        onClickCapture={handlerChecked}
-                                        datatype={value.id}
-                                    />
-                                </td>
                                 <td
                                     style={{
                                         height: "90px",

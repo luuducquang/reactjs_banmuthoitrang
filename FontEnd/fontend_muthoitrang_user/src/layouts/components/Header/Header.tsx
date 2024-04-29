@@ -170,11 +170,11 @@ function Header() {
                                                 Đơn hàng của bạn
                                             </a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="/information">
                                                 Thông tin tài khoản
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <a href="/changepassword">
                                                 Đổi mật khẩu

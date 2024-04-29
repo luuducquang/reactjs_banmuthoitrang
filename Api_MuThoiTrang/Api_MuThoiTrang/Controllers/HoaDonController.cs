@@ -33,6 +33,13 @@ namespace API_MYPHAM.Controllers
             return _hoaDonBUS.Getbyids(id);
         }
 
+        [Route("getbytaikhoan-mahoadon-chitiethoadon/{id}")]
+        [HttpGet]
+        public List<HoaDonModel> Gettaikhoan(int id)
+        {
+            return _hoaDonBUS.Getbytaikhoan(id);
+        }
+
         [Route("create-hoadon")]
         [HttpPost]
         public HoaDonModel CreateHoaDon([FromBody] HoaDonModel model)

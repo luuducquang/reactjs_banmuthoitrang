@@ -65,7 +65,7 @@ function Order() {
                 setTimeout(() => {
                     naigate("/");
                 }, 1500);
-                localStorage.setItem("listProductBuy", JSON.stringify([]));
+                localStorage.setItem("productList", JSON.stringify([]));
                 localStorage.setItem(
                     "productList",
                     JSON.stringify(dataCartNew)
@@ -82,7 +82,7 @@ function Order() {
     const user = JSON.parse(localStorage.getItem("customer") || "{}");
 
     useEffect(() => {
-        let productBuyString = localStorage.getItem("listProductBuy");
+        let productBuyString = localStorage.getItem("productList");
         let dataBuy = productBuyString ? JSON.parse(productBuyString) : [];
         setData(dataBuy);
         if (dataBuy.length === 0) {

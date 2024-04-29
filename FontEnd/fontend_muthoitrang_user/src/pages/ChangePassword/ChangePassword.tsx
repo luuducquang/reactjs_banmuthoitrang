@@ -23,7 +23,9 @@ function ChangePassword() {
         setLoading(true);
         setTimeout(async () => {
             const res = await checkUser(user.mataikhoan);
-            if (res[0].matKhau === values.currentPassword) {
+            console.log(res[0].matKhau);
+            console.log(values.currentPassword);
+            if (String(res[0].matKhau) === String(values.currentPassword)) {
                 await changePasswordUser({
                     TenTaiKhoan: user.taikhoan,
                     MatKhau: values.confirmPassword,

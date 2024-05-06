@@ -30,6 +30,4 @@ const publicRoutes: RouteItem[] = [
     { path: config.routes.registry, component: Registry, layout: OnlyLayout },
 ];
 
-const privateRoutes: RouteItem[] = [];
-
-export { publicRoutes, privateRoutes };
+export { publicRoutes };

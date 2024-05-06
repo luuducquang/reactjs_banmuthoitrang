@@ -306,7 +306,7 @@
 
 .OptionUser{
     position: absolute;
-    background-color: #8888;
+    background-color: rgb(0 0 0);
     padding: 10px;
     border-radius: 5px;
     width: 200px;
@@ -329,7 +329,7 @@
 }
 
 .OptionUser li a:hover{
-    color: #8888;
+    color: rgb(0 0 0);
     background-color: #fff;
     transition: .3s linear;
     border-radius: 5px;

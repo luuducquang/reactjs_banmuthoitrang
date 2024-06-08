@@ -67,7 +67,6 @@ function ItemCart() {
         setCartValue(listProduct);
     }
 
-
     useEffect(() => {
         function loadDataCart() {
             let productListString = localStorage.getItem("productList");
@@ -185,9 +184,11 @@ function ItemCart() {
                                                 }}
                                                 className="price-item"
                                             >
-                                                {value.priceOld.toLocaleString(
-                                                    "DE-de"
-                                                )}
+                                                {value.priceOld
+                                                    ? value.priceOld.toLocaleString(
+                                                          "DE-de"
+                                                      )
+                                                    : ""}
                                             </span>
                                             <sup
                                                 style={{
@@ -205,9 +206,11 @@ function ItemCart() {
                                                 }}
                                                 className="price-item"
                                             >
-                                                {value.price.toLocaleString(
-                                                    "DE-de"
-                                                )}
+                                                {value.price
+                                                    ? value.price.toLocaleString(
+                                                          "DE-de"
+                                                      )
+                                                    : ""}
                                             </span>
                                             <sup>đ</sup>
                                         </p>

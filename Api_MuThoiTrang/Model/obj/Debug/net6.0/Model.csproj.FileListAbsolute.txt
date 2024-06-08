@@ -9,3 +9,14 @@ C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_
 C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\refint\Model.dll
 C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.pdb
 C:\Users\LUU DUC QUANG\Desktop\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\ref\Model.dll
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\bin\Debug\net6.0\Model.deps.json
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\bin\Debug\net6.0\Model.dll
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\bin\Debug\net6.0\Model.pdb
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.AssemblyInfoInputs.cache
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.AssemblyInfo.cs
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.csproj.CoreCompileInputs.cache
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.dll
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\refint\Model.dll
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\Model.pdb
+D:\Bài kiểm tra\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\Api_MuThoiTrang\Model\obj\Debug\net6.0\ref\Model.dll

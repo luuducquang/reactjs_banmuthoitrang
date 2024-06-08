@@ -1,12 +1,10 @@
 import { Link } from "react-router-dom";
-import { FaLongArrowAltRight, FaStar } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 import classNames from "classnames/bind";
 
 import styles from "./Cart.module.scss";
 import { useEffect, useState } from "react";
 import { getProductRecomend } from "../../services/cart.service";
-import { apiImage } from "../../constant/api";
-import { FaShop } from "react-icons/fa6";
 import ItemCart from "../../layouts/components/ItemCart";
 import { useRecoilValue } from "recoil";
 import { totalPriceCartState } from "../../constant/recoil";
@@ -50,12 +48,12 @@ function Cart() {
                                     style={{ color: "#ee4d2d" }}
                                     className={cx("totalPriceCart")}
                                 >
-                                    {totalPriceCart.toLocaleString("DE-de")}
+                                    {totalPriceCart ? totalPriceCart.toLocaleString("DE-de"): 0}
                                 </span>
                                 <sup style={{ color: "#ee4d2d" }}>đ</sup>
                             </p>
                         </div>
-                        {totalPriceCart === 0 ? (
+                        {totalPriceCart === 0 || totalPriceCart === undefined ? (
                             ""
                         ) : (
                             <Link

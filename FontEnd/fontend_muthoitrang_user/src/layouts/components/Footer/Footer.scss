@@ -1,0 +1,131 @@
+#footer{
+    width: 100%;
+}
+
+.footer-transport{
+    width: 100%;
+    min-height: 110px;
+    display: flow-root;
+    background-color: #009981;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.transport{
+    width:75%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.policy{
+    padding: 2% 1%;
+}
+
+.truck{
+    height: 50px;
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 50px;
+}
+
+.policy-name .policy-content{
+    margin: 5px;
+}
+
+.policy-content{
+    margin: 5px;
+}
+
+.footer-suport{
+    width: 100%;
+    background-color: #63666b;
+}
+
+.suport{
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.suport table tr td img{
+    width: 100%;
+    text-align: center;
+}
+
+.suport table{
+    line-height: 1.7;
+}
+
+.title-footer{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.fa-sharp{
+    color: #fff;
+}
+
+.fa-square-facebook{
+    font-size: 58px;
+}
+
+.fa-instagram{
+    font-size: 60px;
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.fa-cc-visa,.fa-cc-paypal,.fa-credit-card,.fa-cc-mastercard{
+    color: #fff ;
+    font-size: 40px;
+}
+
+.suport table tr td a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-fanpage{
+    width: 25%;
+}
+.suport table{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #444444;
+    float: right;
+}
+
+.footer-contact{
+    width: 80%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+}
+
+.copyright{
+    padding: 4% 0;
+}
+
+.social-color{
+    color: #FFF;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+.socials-list{
+    margin-bottom: 4%;
+}
+
+.socials-list a{
+    text-decoration: none
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vRibF2cnrMzxI/EbxppSmDtYEP4NZDl7pR2tno0zJqQ=",
+  "Hash": "Nh2OEnDRrED1bdd9irzXGWsFk7t0lNqY2XMJHPY3EAA=",
   "Source": "Api_MuThoiTrang",
   "BasePath": "_content/Api_MuThoiTrang",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Api_MuThoiTrang\\wwwroot",
       "Source": "Api_MuThoiTrang",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\2164154-all-products-flatlay-simple-skincare-products-1880x1100p.jpg.rendition.1700.650.avif",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\2164154-all-products-flatlay-simple-skincare-products-1880x1100p.jpg.rendition.1700.650.avif",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/2164154-all-products-flatlay-simple-skincare-products-1880x1100p.jpg.rendition.1700.650.avif",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\img\\2164154-all-products-flatlay-simple-skincare-products-1880x1100p.jpg.rendition.1700.650.avif"
     },
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\4 - Copy.jpg",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\4 - Copy.jpg",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/4 - Copy.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4 - Copy.jpg"
     },
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\4.jpg",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\4.jpg",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/4.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\img\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\anh fb 11.jpg",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\anh fb 11.jpg",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/anh fb 11.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\img\\anh fb 11.jpg"
     },
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\anh fb.png",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\anh fb.png",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/anh fb.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\img\\anh fb.png"
     },
     {
-      "Identity": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\user.jpg",
+      "Identity": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\img\\user.jpg",
       "SourceId": "Api_MuThoiTrang",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LUU DUC QUANG\\Desktop\\LuongTienDat_DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
+      "ContentRoot": "D:\\Bài kiểm tra\\DoAn3_Btl_ReactJs_Mu_Thoi_Trang\\Api_MuThoiTrang\\Api_MuThoiTrang\\wwwroot\\",
       "BasePath": "_content/Api_MuThoiTrang",
       "RelativePath": "img/user.jpg",
       "AssetKind": "All",

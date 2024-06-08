@@ -112,12 +112,14 @@ function Order() {
     useEffect(() => {
         async function getData(mataikhoan: any) {
             const resInf = await getInformationOrder(mataikhoan);
-            form.setFieldsValue({
-                hoTen: resInf[0].hoTen,
-                soDienThoai: resInf[0].soDienThoai,
-                email: resInf[0].email,
-                diaChi: resInf[0].diaChi,
-            });
+            if(resInf.length>0){
+                form.setFieldsValue({
+                    hoTen: resInf[0].hoTen,
+                    soDienThoai: resInf[0].soDienThoai,
+                    email: resInf[0].email,
+                    diaChi: resInf[0].diaChi,
+                });
+            }
         }
         getData(user.mataikhoan);
     }, []);
@@ -258,7 +260,9 @@ function Order() {
                                                             className={cx(
                                                                 "ti-plus plus"
                                                             )}
-                                                        >{value.amount}</span>
+                                                        >
+                                                            {value.amount}
+                                                        </span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -330,9 +334,7 @@ function Order() {
                                             }}
                                             className={cx("total_all")}
                                         >
-                                            {(
-                                                totalPrice
-                                            ).toLocaleString("DE-de")}
+                                            {totalPrice.toLocaleString("DE-de")}
                                         </span>
                                         <sup>đ</sup>
                                     </td>
